@@ -128,3 +128,76 @@ ul li a:hover {
     font-size: 17px;
     margin-top: 10px;
 }
+
+.mission {
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    column-count: 3;
+    column-width: 33.33%;
+    column-gap: 0;
+}
+
+.mission .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: #fff;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all .8s ease;
+}
+
+.mission .card .icon {
+    font-size: 2rem;
+}
+
+.mission .card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.mission .card p {
+    text-align: center;
+}
+
+.mission .card:hover {
+    background-color: #000;
+    transition: all .8s ease;
+}
+
+.services {
+    width: 100%;
+    height: 80vh;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services p {
+    text-align: center;
+    width: 60%;
+}
+
+.services .wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .wrapper .service {
+    width: 31%;
+    margin: 5px;
+    background-color: #e2e2e2a1;
+}
+
+.services .wrapper .service p {
+    margin: 0;
+}
