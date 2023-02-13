@@ -181,6 +181,12 @@ ul li a:hover {
     align-items: center;
 }
 
+.services .head {
+    font-size: 2rem;
+    color: blue;
+    margin: 0;
+}
+
 .services p {
     text-align: center;
     width: 60%;
@@ -196,8 +202,87 @@ ul li a:hover {
     width: 31%;
     margin: 5px;
     background-color: #e2e2e2a1;
+    display: flex;
+    color: blue;
+    align-items: center;
+}
+
+.services .wrapper .service i {
+    font-size: 2rem;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 60px;
+
 }
 
 .services .wrapper .service p {
     margin: 0;
+    font-size: 1.5rem;
+}
+
+.cases {
+    width: 100%;
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.cases .card {
+    width: 20%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cases .card i {
+    border: 2px solid #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.cases .card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.cases .card p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px ) {
+    nav {
+        display: none;
+    }
+
+    .content p {
+        width: 70%;
+    }
+
+    .welcome {
+        height: fit-content;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .welcome p {
+        width: 70%;
+    }
+
+    .mission {
+        height: fit-content;
+        column-count: 1;
+    }
+
+    .mission .card {
+        width: 80%;
+    }
 }
